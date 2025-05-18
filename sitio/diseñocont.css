@@ -52,65 +52,74 @@ nav {
     color: rgba(169, 13, 112, 0.333);
 }
 
-.sub1 {
+h2 {
     text-align: center;
     font-size: 28px;
     color: rgba(169, 13, 112, 0.753);
 }
 
-.mainP {
-    text-align: center;
-    color: rgb(55, 0, 35);
+.formP{
+    font-size: 25px;
     font-weight: 500;
-    font-size: 20px;
+    text-align: center;
+    color: rgba(97, 14, 65, 0.711);
+    margin-bottom: -10px;
 }
 
-.divImgs {
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.mainImg {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border: 3px solid rgba(169, 13, 112, 0.237);
-}
-
-.iframe {
+form {
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-iframe {
-    width: 600px;
-    height: 400px;
-    margin-top: 20px;
-    border: 3px solid rgba(169, 13, 112, 0.237);
+.input, textarea {
+    display: block;
+    width: 550px;
+    height: 35px;
+    margin: 20px 5px;
+    background-color: rgba(220, 132, 186, 0.238);
+    border: 2px solid rgba(132, 19, 87, 0.31);
+    border-radius: 5px;
+    color: rgba(69, 6, 45, 0.724);
+    font-size: 17px;
+    padding-left: 5px;
 }
 
-#tabla {
-    color: green;
-    width: 500px;
-    background-color: rgba(169, 13, 112, 0.373);
-    border: 2px dashed rgba(169, 13, 112, 0.237);;
-    text-align: center;
-    margin: 10px auto;
+.input::placeholder, textarea::placeholder {
+    color: rgba(93, 20, 65, 0.292);
 }
 
-.tablaTr {
-    background-color: rgba(131, 15, 92, 0.316);
+.input:focus, textarea:focus {
+    background-color: rgba(198, 77, 152, 0.252);
+    outline: none;
 }
 
-.tablaTh {
-    color: rgb(79, 0, 51);
-    background-color: rgba(230, 65, 158, 0.459);
+textarea {
+    height: 120px;
+    resize: none;
 }
 
-.tablaTd {
-    color: rgb(255, 211, 238);
+.submitDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    width: 220px;
+    height: 40px;
+    background-color: rgba(164, 21, 109, 0.484);
+    color: rgba(246, 210, 232, 0.814);
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid rgba(92, 15, 61, 0.331);
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background-color: rgba(158, 25, 107, 0.613);
+    color: rgba(237, 177, 214, 0.814);
+    cursor: pointer;
 }
 
 footer {

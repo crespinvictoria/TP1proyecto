@@ -17,6 +17,7 @@ body {
     text-decoration: none;
 }
 
+
 h1 {
     font-size: 50px;
     color: rgba(209, 85, 161, 0.5);
@@ -52,65 +53,28 @@ nav {
     color: rgba(169, 13, 112, 0.333);
 }
 
-.sub1 {
+h2 {
     text-align: center;
     font-size: 28px;
     color: rgba(169, 13, 112, 0.753);
 }
 
-.mainP {
-    text-align: center;
-    color: rgb(55, 0, 35);
-    font-weight: 500;
-    font-size: 20px;
+ul {
+    margin-left: 13px;
+    list-style-type: none;
 }
 
-.divImgs {
-    display: flex;
-    justify-content: space-evenly;
+li {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(90, 8, 60, 0.824);
     
 }
 
-.mainImg {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border: 3px solid rgba(169, 13, 112, 0.237);
-}
-
-.iframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-iframe {
-    width: 600px;
-    height: 400px;
-    margin-top: 20px;
-    border: 3px solid rgba(169, 13, 112, 0.237);
-}
-
-#tabla {
-    color: green;
-    width: 500px;
-    background-color: rgba(169, 13, 112, 0.373);
-    border: 2px dashed rgba(169, 13, 112, 0.237);;
-    text-align: center;
-    margin: 10px auto;
-}
-
-.tablaTr {
-    background-color: rgba(131, 15, 92, 0.316);
-}
-
-.tablaTh {
-    color: rgb(79, 0, 51);
-    background-color: rgba(230, 65, 158, 0.459);
-}
-
-.tablaTd {
-    color: rgb(255, 211, 238);
+li::before {
+    content: "💖";
+    padding-right: 10px;
 }
 
 footer {
