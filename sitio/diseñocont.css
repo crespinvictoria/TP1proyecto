@@ -66,6 +66,12 @@ h2 {
     margin-bottom: -10px;
 }
 
+label {
+    font-size: 20px;
+    color: rgba(169, 13, 112, 0.753);
+    margin-left: 5px;
+}
+
 form {
     margin: 20px;
     display: flex;

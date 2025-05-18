@@ -113,6 +113,13 @@ iframe {
     color: rgb(255, 211, 238);
 }
 
+hr {
+    width: 550px;
+    border: 1px solid rgba(198, 100, 155, 0.515);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
 footer {
     color: rgba(145, 46, 107, 0.711);
     margin-left: 10px;
